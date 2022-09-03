@@ -1,10 +1,8 @@
 # Regular expression (Regex) explained
 
-Regular expression (Regex) explained
-
 ## Summary
 
-Regular expression (regex) is a sequence of characters that specifies a search pattern in any given text (string). In this tutorial we discuss how we can search throug a text file to find an email address or verify if a given string is an email address. 
+Regular expression (regex) is a sequence of characters that specifies a search pattern in any given text (string). In this tutorial we discuss how we can search through a text file to find an email address or verify if a given string is an email address. 
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
@@ -23,8 +21,7 @@ Regular expression (regex) is a sequence of characters that specifies a search p
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-The RegEx we are dissecting today has three elements that we will look into further.
-Complete Regex for Reference:/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+The RegEx we are dissecting today has three elements.
 
 Element 1: Username ([a-z0-9_\.-]+)
 
@@ -36,7 +33,7 @@ This element will check to match the domain portion of the email address. It may
 
 Element 3: Suffix
 
-this element checks the suffix fo the email address. Think ".com"/".edu". It may contain only letters, and they must be between 2 and 6 characters long.
+this element checks the suffix fo the email address. It may contain only letters, and they must be between 2 and 6 characters long.
 ### Anchors
 Anchors assert that the engine's current position in the string matches a well-determined location: for instance, the beginning of the string, or the end of a line.
 
